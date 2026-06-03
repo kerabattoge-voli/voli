@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KERABAT TOGE Live Voli </title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            LIVE TV
+        </div>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Cari channel..."
+        >
+
+        <div id="channelList"></div>
+
+    </aside>
+
+    <main class="content">
+
+        <div class="player-wrapper">
+
+            <video
+                id="video"
+                controls
+                autoplay
+                muted
+                playsinline>
+            </video>
+
+        </div>
+
+        <div class="now-playing">
+            <h2 id="channelTitle">
+                Loading...
+            </h2>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
