@@ -1,5 +1,5 @@
 const PLAYLIST_URL =
-"https://voli.my.id/vidiom3u.php?.m3u";
+"https://livecdn.euw1-0005.jwplive.com/live/sites/fM9jRrkn/media/KNoZm1zY/live.isml/.m3u8";
 
 const video =
 document.getElementById("video");
